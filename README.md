@@ -7,6 +7,8 @@ HSBC Task1
 3. q vwapFunct.q q   //loads the vwapFunct.q file into q process.
 4. vwapFunct[(09:30:00.000 12:30:00.000); enlist `$"USD/JPY"]  example of a call to the vwapFunct analytic.
 5. EXAMPLES:
+
+
   ![image](https://github.com/annafahy/HSBC/assets/26577803/ff9b7ace-0f0f-4e33-b771-e049a16e6b65)
 
 
