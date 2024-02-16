@@ -7,18 +7,15 @@ HSBC Task1
 3. q vwapFunct.q q   //loads the vwapFunct.q file into q process.
 4. vwapFunct[(09:30:00.000 12:30:00.000); enlist `$"USD/JPY"]  example of a call to the vwapFunct analytic.
 5. EXAMPLES:
-   vwapFunct[(09:30:00.000 12:30:00.000); enlist `$"USD/JPY"]
-sym     vwap
-----------------
-USD/JPY 101.2495
+  ![image](https://github.com/annafahy/HSBC/assets/26577803/ff9b7ace-0f0f-4e33-b771-e049a16e6b65)
 
-vwapFunct[(10:30:00.000 12:30:00.000); enlist `$"EUR/USD"]
-sym     vwap
-----------------
-EUR/USD 1.750534
+
+![image](https://github.com/annafahy/HSBC/assets/26577803/b03e402d-7c0c-4f19-b253-70d5a88ff87e)
+
+![image](https://github.com/annafahy/HSBC/assets/26577803/4b10f3ae-5576-4713-b728-bde9178cb867)
+
 
 //HERE EUR/GBP DOESNT EXIST ON TABLE TRADES. So Empty table returned
-vwapFunct[(10:30:00.000 12:30:00.000); enlist `$"EUR/GBP"]   
-sym vwap
---------
+![image](https://github.com/annafahy/HSBC/assets/26577803/5ec7240c-a50b-4085-80cb-64d327c27be9)
+
 
